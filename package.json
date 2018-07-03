@@ -1,0 +1,30 @@
+{
+  "name": "learn-react-ts",
+  "version": "1.0.0",
+  "description": "learn reactjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tasogare/learn-react-ts.git"
+  },
+  "keywords": [
+    "react",
+    "nightwatch"
+  ],
+  "author": "katsuya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tasogare/learn-react-ts/issues"
+  },
+  "homepage": "https://gitlab.com/tasogare/learn-react-ts#README",
+  "devDependencies": {
+    "nightwatch": "^0.9.21",
+    "webdriver-manager": "^12.1.0"
+  }
+}

@@ -9,11 +9,12 @@
   "selenium" : {
     "start_process" : true,
     "server_path" : "node_modules/webdriver-manager/selenium/selenium-server-standalone-3.13.0.jar",
-    "log_path" : "test/logs",
+    "log_path" : "tests/logs",
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "node_modules/webdriver-manager/selenium/chromedriver",
+      "webdriver.chrome.driver" : "node_modules/webdriver-manager/selenium/chromedriver_2.40",
+      "webdriver.gecko.driver" : "node_modules/webdriver-manager/selenium/geckodriver-v0.21.0",
       "webdriver.ie.driver" : ""
     }
   },
